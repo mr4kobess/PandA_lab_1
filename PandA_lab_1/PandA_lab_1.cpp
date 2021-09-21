@@ -25,7 +25,7 @@ double second_addend(double x, double a, int c) {
 
 int main() {
     using namespace std;
-    /* Установка локального языка в консоле */
+    /* Установка русского языка в консоле */
     setlocale(LC_ALL, "Russian");
 
     /* Init variabales */
