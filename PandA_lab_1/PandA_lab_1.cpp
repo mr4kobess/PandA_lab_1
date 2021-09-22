@@ -7,7 +7,7 @@ double first_addend(double x, double a, int c) {
      /* Числитель */
     double numerator = sqrt(abs(-a * x + double(c)));
 
-    /* Занменатель */
+    /* Знаменатель */
     double denumirator = log(abs(x + pow(double(c), 3)));
 
     return numerator / denumirator;
